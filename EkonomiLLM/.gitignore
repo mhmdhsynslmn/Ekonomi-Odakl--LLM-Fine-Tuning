@@ -1,0 +1,44 @@
+# Python bytecode ve cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Sanal ortamlar
+.venv/
+venv/
+env/
+ENV/
+
+# Ortam değişkenleri ve gizli dosyalar
+.env
+*.env
+bitirme.env
+
+# Jupyter / VS Code / IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Loglar
+*.log
+
+# Büyük model/weight dosyaları
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.onnx
+
+# LLM proje çıktıları ve checkpoint klasörleri
+EconomyLLM/
+
+# Eğer model klasörlerini tamamen GitHub'a yüklemek istemiyorsanız:
+economy-lora/
+tinyllama-economy-lora/
+
+# İsterseniz aşağıdaki gibi küçük README/ayar dosyalarını koruyabilirsiniz:
+# !economy-lora/README.md
+# !tinyllama-economy-lora/README.md
