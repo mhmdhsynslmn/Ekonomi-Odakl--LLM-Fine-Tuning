@@ -46,11 +46,6 @@ Modeli değerlendirmek için:
 python EkonomiLLM/evaluate_bleu.py
 ```
 
-## Güvenlik Notu
-
-- Gizli anahtarlar ve token’lar asla repo içerisine eklenmemelidir.
-- `.env` ve `bitirme.env` dosyaları `.gitignore` ile korunur.
-
 ## Not
 
 Bu repo, büyük model ağırlıkları ve checkpoint dosyalarını içermez. İsterseniz ilerleyen adımlarda bunları da ekleyebilir ve daha kapsamlı bir üretim sürecine dönüştürebilirsiniz.
