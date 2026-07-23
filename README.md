@@ -1,4 +1,4 @@
-﻿# Ekonomi Odaklı LLM nce Ayar (Fine-Tuning)
+﻿# Ekonomi Odaklı LLM ince Ayar (Fine-Tuning)
 
 Bu proje, ekonomi haberleri alanında özelleşmiş bir dil modeli geliştirmek amacıyla hazırlanmıştır. TinyLlama tabanlı model üzerinde **LoRA / PEFT** (Parameter-Efficient Fine-Tuning) yöntemleriyle ince ayar gerçekleştirilmiş ve kapsamlı değerlendirme adımları projeye dahil edilmiştir.
 
