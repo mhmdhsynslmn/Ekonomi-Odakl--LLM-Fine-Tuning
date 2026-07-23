@@ -1,12 +1,12 @@
 # Ekonomi-Odaklı LLM İnce Ayar (Fine-Tuning)
 
-Bu proje, ekonomi haberleri alanında özelleşmiş bir dil modeli geliştirmek amacıyla hazırlanmıştır. TinyLlama tabanlı model üzerinde **LoRA / PEFT** (Parameter-Efficient Fine-Tuning) yöntemleriyle ince ayar (fine-tuning) gerçekleştirilmiş ve kapsamlı değerlendirme adımları projeye dahil edilmiştir.
+Bu proje, ekonomi haberleri alanında özelleşmiş bir dil modeli geliştirmek amacıyla hazırlanmıştır. TinyLlama tabanlı model üzerinde **LoRA / PEFT** (Parameter-Efficient Fine-Tuning) yöntemleriyle ince ayar gerçekleştirilmiş ve kapsamlı değerlendirme adımları projeye dahil edilmiştir.
 
 ## Proje Amaçları
 
 - Ekonomi haberleri bağlamında özelleşmiş metin üretimi gerçekleştirmek.
-- Fine-tuning sürecini şeffaf, anlaşılır ve yeniden üretilebilir (reproducible) bir şekilde sunmak.
-- BLEU metrikleri ile model performansının değerlendirme adımlarını entegre etmek.
+- Fine-tuning sürecini şeffaf, anlaşılır ve yeniden üretilebilir bir şekilde sunmak.
+- BLEU metrikleri ile model performansını değerlendirmek.
 
 ## Proje Yapısı
 
@@ -62,4 +62,4 @@ python EkonomiLLM/evaluate_bleu.py
 
 ## Not
 
-> **Depo Boyutu Hakkında:** Bu depo, büyük model ağırlıklarını ve checkpoint dosyalarını içermez. İhtiyaç duymanız halinde ilerleyen adımlarda ağırlıkları ekleyebilir veya projeyi uçtan uca bir üretim (production) sürecine dönüştürebilirsiniz.
+> **Depo Boyutu Hakkında:** Bu depo, büyük model ağırlıklarını ve checkpoint dosyalarını içermez. İhtiyaç duymanız halinde ilerleyen adımlarda ağırlıkları ekleyebilir veya projeyi uçtan uca bir üretim sürecine dönüştürebilirsiniz.
