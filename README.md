@@ -54,7 +54,7 @@ export HF_TOKEN="hf_your_token_here"
 python EkonomiLLM/BitirmeOdevi/bitirme.py
 ```
 
-- **Modeli Değerlendirmek (BLEU) çin:**
+- **Modeli Değerlendirmek (BLEU) için:**
 
 ```bash
 python EkonomiLLM/evaluate_bleu.py
